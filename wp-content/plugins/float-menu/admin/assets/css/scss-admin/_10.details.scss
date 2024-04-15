@@ -1,0 +1,11 @@
+.wpie-details-sidebar {
+  summary {
+    cursor: pointer;
+    &::-webkit-details-marker,
+    &::marker {
+      color: var(--wpie-color-orange);
+    }
+    color: rgb(var(--wpie-rgb-blurple));
+    font-weight: 600;
+  }
+}

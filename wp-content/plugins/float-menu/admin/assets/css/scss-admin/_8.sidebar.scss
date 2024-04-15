@@ -1,0 +1,44 @@
+.wpie-settings__sidebar {
+  padding-block-start: 15px;
+
+}
+
+.wpie-sidebar {
+  background-color: #ffffff;
+  box-shadow: var(--wpie-shadow-small);
+  border-radius: 0.2rem;
+  .wpie-title {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 2px solid rgba(var(--wpie-rgb-blurple), 0.05);
+  }
+
+  .wpie-fields__box {
+    padding: 18px 12px;
+    display: grid;
+    gap: 1rem
+
+  }
+
+  .wpie-actions__box {
+    border-top: 2px solid rgba(var(--wpie-rgb-blurple), 0.05);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .wpie-link-delete {
+    color: var(--wpie-color-danger);
+  }
+
+}
+
+.wpie-sidebar-features {
+  margin-top: 15px;
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+}

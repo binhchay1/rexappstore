@@ -1,0 +1,27 @@
+.wpie-settings__wrapper {
+
+  .is-hidden {
+    position: absolute;
+    left: -99999px;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .is-blur {
+    filter: blur(1px);
+  }
+}
+
+.wpie-max-w_750 {
+  max-width: 750px;
+  margin-inline: auto;
+}
+
+.wpie-color-orange {
+  color: var(--wpie-color-orange) !important;
+}
+.wpie-color-success {
+  color: var(--wpie-color-success) !important;
+}
+.wpie-color-teal {
+  color: rgb(var(--wpie-rgb-teal)) !important;
+}

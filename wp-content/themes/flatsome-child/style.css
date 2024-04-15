@@ -1,0 +1,163 @@
+/*
+Theme Name: Pizza
+Theme URI: https://muatheme.com/san-pham/theme-wordpress-nha-hang-pizza-paradise/
+Author: MuaTheme.com
+Author URI: https://muatheme.com
+Description: Theme by MuaTheme
+Template: flatsome
+Version: 3.6.2
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+div#masthead:after {
+    content: "";
+    background-image: url(images/bg-header_white.png);
+    width: 100%;
+    height: 17px;
+    position: absolute;
+}
+footer#footer:before {
+    content: "";
+    /* margin-top: -15px; */
+    background-size: cover;
+    background-position: center top;
+    opacity: 0.1;
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+.is-divider.small {
+    background-color: #fdba14;
+}
+span.widget-title {
+    color: white;
+}
+.header-main .nav > li > a {
+    line-height: 25px !important;
+}
+.banner div.wpcf7 {
+    font-size: 130%;
+}
+#b-c-facebook .chat-f-b label {
+    color: #fff !important;
+    left: 35px !important;
+}
+#chat-f-b img.chat-logo {
+    margin-top: 0 !important;
+}
+.banner-layers.container .testimonial-box {
+    font-size: 200%;
+}
+.badge-inner.on-sale {
+    background: #e9003f;
+    padding: 6px !important;
+    min-height: inherit;
+    line-height: 11px;
+}
+.product .badge {
+    width: auto;
+    height: auto;
+}
+.col .badge-container {
+    margin-top: 0px !important;
+}
+ul.list_price_pizza {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+ul.list_price_pizza li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+ul.list_price_pizza li del {
+    display: none;
+}
+ul.list_price_pizza li ~ li {
+    padding-left: 3px;
+    position: relative;
+}
+ul.list_price_pizza li ~ li:before {
+    content: "/";
+    position: absolute;
+    top: 0;
+    left: 6px;
+    line-height: 1;
+}
+ul.list_price_pizza_text li span a {
+    background: #e9003f;
+    color: #fff;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+ul.list_price_pizza_text li ~ li:before {
+    display: none;
+}
+ul.list_price_pizza.list_price_pizza_text {
+    margin: 6px 0 0 0;
+}
+.single-product ul.list_price_pizza li span.price {
+    margin: 0;
+    font-size: 20px;
+}
+#rpb div a .dashicons.dashicons-facebook {
+    transform: translatey(-3px) rotateY(0);
+}
+.list_price_pizza_mobile, .list_price_pizza_desktop {
+    display: none !important;
+}
+.devvn_desktop .list_price_pizza_desktop {
+    display: inline-block !important;
+}
+.devvn_mobile .list_price_pizza_mobile {
+    display: inline-block !important;
+}
+@media screen and (max-width: 680px){
+    div#b-c-facebook {
+        z-index: 997 !important;
+    }
+    #b-c-facebook .f-chat-conent {
+        height: 300px !important;
+    }
+}
+@media screen and (min-width: 850px) {
+    body.framed {
+        padding: 0;
+    }
+}
+@media (max-width: 991px){
+    ul.list_price_pizza {
+        font-size: 70%;
+    }
+    ul.list_price_pizza.list_price_pizza_text li ~ li {
+        padding-left: 4px;
+    }
+    ul.list_price_pizza_text li span a {
+        padding: 2px 8px;
+    }
+}
+@media (max-width: 767px){
+    ul.list_price_pizza {
+        font-size: 10px;
+    }
+    ul.list_price_pizza li ~ li {
+        padding-left: 4px;
+        position: relative;
+    }
+    ul.list_price_pizza_text li span a {
+        padding: 2px 4px;
+    }
+    ul.list_price_pizza li ~ li:before {
+        content: "/";
+        left: 2px;
+    }
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
